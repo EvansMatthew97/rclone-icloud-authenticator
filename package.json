@@ -1,0 +1,16 @@
+{
+  "name": "rclone-icloud-authenticator",
+  "description": "",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node index.ts"
+  },
+  "keywords": [],
+  "author": "Matthew Evans",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^24.34.0"
+  }
+}
