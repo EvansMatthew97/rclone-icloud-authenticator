@@ -3,8 +3,15 @@ This is a proof of concept script to authenticate Rclone iCloud (`icloudddrive`)
 
 It uses Puppeteer to control a Chromium window, to fetch the required cookies.
 
+> [!NOTE]
+> Requires Node.js version 24 or above (TypeScript support is required).
+
 ## Installation
 ```bash
+# if using Node Version Manager
+nvm use 24
+
+# install dependencies
 npm install
 ```
 
